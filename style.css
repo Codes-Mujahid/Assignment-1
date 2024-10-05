@@ -548,9 +548,9 @@ form input, textarea{
    }
 }
 /* -----------------UPDATED SLIDER IMAGE & CONTACT SECTION CSS------------ */
-/* Center the slider image and add margin to contact-text-box */
+
 @media (max-width: 768px) {
-   /* Center the slider image */
+
     .slider-img {
         display: flex;
         justify-content: center;
@@ -558,7 +558,6 @@ form input, textarea{
     .slider-img img {
         width: 100%;
    }
-   /* Add margin after contact-text-box */
     .contact-text-box {
         margin-bottom: 1rem;
    }
@@ -569,10 +568,9 @@ form input, textarea{
     padding-top: 80px;  
 }
 
-/* Add this media query for mobile devices */
 @media (max-width: 768px) {
     .slider-section {
-        padding: 1rem !important; /* Add 1rem padding for mobile devices */
+        padding: 1rem !important;
     }
 }
 
@@ -581,19 +579,58 @@ form input, textarea{
     padding: 100px 0;
 }
 
-/* Add this media query to align email input and icon */
 @media (max-width: 768px) {
     .contact-text-box {
-        display: flex; /* Flexbox for alignment */
-        align-items: center; /* Center items vertically */
+        display: flex; 
+        align-items: center; 
     }
 
     .contact-email {
-        flex: 1; /* Allow the email input to take up the available space */
-        margin-right: 10px; /* Space between the email input and icon */
+        flex: 1; 
+        margin-right: 10px; 
     }
 
     .contact-text-box i {
-        margin-right: 0; /* Remove right margin for the icon */
+        margin-right: 0; 
+    }
+}
+
+@media (max-width: 768px) {
+    .slider {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .slider-img img {
+        width: 100%;
+        border-radius: 20%;
+        margin-bottom: 20px;
+    }
+
+    .slider-text h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .slider-text p {
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    .social-acc {
+        justify-content: center;
+    }
+    
+    .social-acc i {
+        font-size: 1.1rem;
+        padding: 5px;
+    }
+    
+    .cv {
+        font-size: 1rem;
+        padding: 8px 30px;
+        margin: 20px 0;
     }
 }
