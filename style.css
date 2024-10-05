@@ -572,7 +572,7 @@ form input, textarea{
 /* Add this media query for mobile devices */
 @media (max-width: 768px) {
     .slider-section {
-        padding: 1rem; /* Add 1rem padding for mobile devices */
+        padding: 1rem !important; /* Add 1rem padding for mobile devices */
     }
 }
 
